@@ -1,0 +1,6 @@
+{
+  "dbname": "AppleProducts",
+  "user": "postgres",
+  "password": "root",
+  "base_path": ""
+}

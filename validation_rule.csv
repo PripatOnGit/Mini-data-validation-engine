@@ -1,0 +1,4 @@
+rule_id,rule_description,rule_type,rule_text
+1,"Find products with NULL price in product table","SQL","SELECT * FROM products WHERE price IS NULL;"
+2,"Find product with lenght of model name is greater then 10 characters","SQL","SELECT * FROM products WHERE length(model) > 15;"
+3,"check if model name conatins no special characters","Python","validate_name"
